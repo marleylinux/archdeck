@@ -13,7 +13,7 @@ Use cpupower and edit /etc/defualt/cpupower (as the cpupower using -d and -u set
 I read about the audio of the steamdeck being a lot quieter as compared to when on steamos and even 150% arch volume causes crazy crackling. A
 On arch if you install alsa-utils and then do alsamixer then you can fix this.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-using alsa-mixer you need to find the two left pcn's and the two right pcn's (I wouldn't touch anything else) I personally turned them up to max, this causes a really loud and not crackling steamdeck (I'd say normal but it sounds very slightly off, maybe valve do some better or more cutom mixing)  but overall a a night and day difference
+using alsa-mixer you need to find the left and right Digital pcn's I changed them quite low so the greenbar is max (bar goes green, white, red) and the two analouge pcn's I changed these to the whitebar max (I wouldn't touch anything else) this causes a really loud and NO crackling steamdeck (I'd say normal but it sounds very slightly off, maybe valve do some better or more cutom mixing)  but overall a a night and day difference
 
 #Extra
 steamdeck display in hyprland is eDP-1 
